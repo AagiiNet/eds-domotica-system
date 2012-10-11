@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="../../Content/Blogger5/5css.css" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="header-container">
+    <header class="wrapper">
+        <div id="logo">
+            <div id="title">
+              Eds Domatica System
+            </div>
+		</div>
+<!--start navigation -->
+        <nav>
+        <div class="pul"><a href="#">Login</a></div>
+        <div class="pul"><a href="#">IP Cams</a></div>
+        <div class="pul"><a href="#">RF Devices</a></div>
+        <div class="pul"><a href="#">Home</a></div>
+        </nav>
+<!--end navigation -->
+    </header>
+</div>
+<!--end header -->
+<!--start main content -->
+<div id="main" class="wrapper">
+		
+    <aside>
+        
+                
+@*        <a href="#"><img src="/content/blogger5/images/facebook-icon.png" alt="Facebook" class="imagedropshadow"></a>
+        <a href="#"><img src="/content/blogger5/images/twitter-icon.png" alt="Twitter" class="imagedropshadow"></a>
+        <a href="#"><img src="/content/blogger5/images/yahoo-icon.png" alt="Yahoo" class="imagedropshadow"></a>
+        <a href="#"><img src="/content/blogger5/images/youtube-icon.png" alt="Youtube" class="imagedropshadow"></a>
+*@
+    </aside>
+
+    <article>
+        @RenderBody()
+    </article>
+</div>
+<!--end main content -->
+
+<!--start footer -->
+<div id="footer-container">	
+    <footer class="wrapper">
+        <!--start footer nav -->
+        <div class="foot-nav">    
+            <ul>
+            <li> <a href="#">Home Page</a></li>
+            </ul>
+        </div>	
+
+        <div class="copy"><a href="http://www.imediacreatives.it" target="_blank">Coder &amp; Design Imediacreatives</a> &copy; copyrigth yoursite.com</div>
+      
+    <!--end footer nav -->  
+    </footer>
+</div>
+<!--end footer -->
+<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>
