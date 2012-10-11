@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Base
+namespace Edge.IPCameras
 {
-    public class Class1
+    public class Foscam : IPCamera
     {
+
     }
+
 }
