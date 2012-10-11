@@ -2,4 +2,11 @@
 
 = Links =
 
+* templates
+
+NewsSourceFinal HTML5 and CSS3 Template
+http://freehtml5templates.com/newssourcefinal-html5-and-css3-template/
+
+* icons
+
 http://webdesignledger.com/freebies/20-excellent-icon-sets-for-application-design
