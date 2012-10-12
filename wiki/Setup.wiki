@@ -7,3 +7,4 @@
  * Aforge.NET
   * PM> Install-Package AForge.Imaging
   * PM> Install-Package AForge.Video
+  * PM> Install-Package AForge.Vision
