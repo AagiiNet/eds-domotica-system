@@ -2,6 +2,6 @@
 
 = prerequisites =
 
-* Visual Studio 2010
-* MVC 3.0
-* Aforge.NET
+ * Visual Studio 2010
+ * MVC 3.0
+ * Aforge.NET
