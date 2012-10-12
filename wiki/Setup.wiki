@@ -1,0 +1,7 @@
+#summary how to setup dev environment
+
+= prerequisites =
+
+* Visual Studio 2010
+* MVC 3.0
+* Aforge.NET
