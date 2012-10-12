@@ -5,3 +5,4 @@
  * Visual Studio 2010
  * MVC 3.0
  * Aforge.NET
+  * PM> Install-Package AForge.Video
