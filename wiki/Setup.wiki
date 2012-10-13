@@ -3,8 +3,8 @@
 = prerequisites =
 
  * Visual Studio 2010
- * MVC 3.0
- * Aforge.NET
+ * [http://www.asp.net/mvc/mvc3 MVC 3.0]
+ * [http://www.aforgenet.com/ Aforge.NET]
   * PM> Install-Package AForge.Imaging
   * PM> Install-Package AForge.Video
   * PM> Install-Package AForge.Vision
