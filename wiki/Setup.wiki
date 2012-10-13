@@ -8,4 +8,8 @@
   * PM> Install-Package AForge.Imaging
   * PM> Install-Package AForge.Video
   * PM> Install-Package AForge.Vision
- * [http://system.data.sqlite.org/index.html/doc/trunk/www/downloads.wiki]SQLLite 
+ * [http://system.data.sqlite.org/index.html/doc/trunk/www/downloads.wiki SQLLite]
+
+= Recommended =
+
+ * [http://sqliteadmin.orbmu2k.de/ SQLLite admin tool]
