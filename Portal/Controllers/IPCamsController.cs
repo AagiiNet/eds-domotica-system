@@ -13,5 +13,9 @@ namespace Edge.Controllers
             return View();
         }
 
+        public ActionResult Create()
+        {
+            return View(new IPCameras.Foscam());
+        }
     }
 }

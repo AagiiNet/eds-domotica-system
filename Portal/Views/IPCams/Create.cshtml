@@ -1,0 +1,24 @@
+﻿@model Edge.IPCameras.IPCamera
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add IP Camera</h1>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    @Html.Partial("IPCamera")
+
+    <p>
+        <input type="submit" value="Create" />
+    </p>
+
+}
+
+
